@@ -6,19 +6,19 @@ This repository contains a **quantum teleportation simulation** implemented in P
 
 ## Project Structure
 
-```
 QC-803-Quantum-Teleportation/
 ├─ src/quantum_teleportation/
-│  ├─ __init__.py
-│  ├─ teleport.py           # Quantum teleportation circuits and feedforward
-│  ├─ tomography.py         # Measurement, state reconstruction, and postselection
-│  ├─ noise.py              # Noise models, Bell-pair degradation, and dephasing
-│  ├─ visualization.py      # Plotting and visualization utilities
+│ ├─ __init__.py
+│ ├─ teleport.py # Quantum teleportation circuits and feedforward
+│ ├─ tomography.py # Measurement, state reconstruction, and postselection
+│ ├─ noise.py # Noise models, Bell-pair degradation, and dephasing
+│ ├─ visualization.py # Plotting and visualization utilities
 ├─ examples/
-│  ├─ complete_teleportation.py  # Full teleportation workflow with noise and plots
-├─ pyproject.toml           # Project metadata for installation
-├─ README.md
-```
+│ ├─ complete_teleportation.py # Full teleportation workflow with noise and plots
+├─ tests/
+│ └─ test_teleportation.py # Unit tests
+├─ pyproject.toml # Project metadata and dependencies
+├─ README.md # Project overview and instructions
 
 ---
 
