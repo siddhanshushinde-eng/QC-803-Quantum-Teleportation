@@ -22,30 +22,6 @@ QC-803-Quantum-Teleportation/
 
 ---
 
-## Installation
-
-Create a virtual environment:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Linux / macOS
-# .venv\Scripts\activate    # Windows
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Install the package in editable mode:
-
-```bash
-pip install -e .
-```
-
----
-
 ## Modules Overview
 
 ### `teleport.py`
