@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 authors = [
     { name = "Siddhanshu Shinde" },
-    { name = "Pritom" }
+    { name = "MD Mahmudul Hasan Pritom" }
 ]
 keywords = ["quantum", "teleportation", "qiskit", "QC803"]
 
