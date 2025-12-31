@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quantum-teleportation-qc803"
+version = "0.1.0"
+description = "QC 803 Final Project: Quantum Teleportation"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Siddhanshu Shinde" },
+    { name = "Pritom" }
+]
+keywords = ["quantum", "teleportation", "qiskit", "QC803"]
+
+dependencies = [
+    "qiskit",
+    "qiskit-aer",
+    "matplotlib",
+    "pytest",
+    "pylatexenc"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/quantum_teleportation"]
